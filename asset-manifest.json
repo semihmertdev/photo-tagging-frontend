@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/photo-tagging-frontend/static/css/main.e6c13ad2.css",
+    "main.js": "/photo-tagging-frontend/static/js/main.c2c3cdfa.js",
+    "static/js/453.248bb0a0.chunk.js": "/photo-tagging-frontend/static/js/453.248bb0a0.chunk.js",
+    "index.html": "/photo-tagging-frontend/index.html",
+    "main.e6c13ad2.css.map": "/photo-tagging-frontend/static/css/main.e6c13ad2.css.map",
+    "main.c2c3cdfa.js.map": "/photo-tagging-frontend/static/js/main.c2c3cdfa.js.map",
+    "453.248bb0a0.chunk.js.map": "/photo-tagging-frontend/static/js/453.248bb0a0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.c2c3cdfa.js"
+  ]
+}
