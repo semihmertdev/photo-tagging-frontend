@@ -55,7 +55,7 @@ function GamePage() {
     if (!target) return;
 
     try {
-      const response = await axios.post('http://localhost:5000/api/characters/validate', {
+      const response = await axios.post('https://photo-tagging-backend.onrender.com/api/characters/validate', {
         characterName: character,
         xPosition: target.x,
         yPosition: target.y,
@@ -80,7 +80,7 @@ function GamePage() {
 
   const handleSaveScore = useCallback(async () => {
     try {
-      await axios.post('http://localhost:5000/api/scores', {
+      await axios.post('https://photo-tagging-backend.onrender.com/api/scores', {
         name: playerName,
         time: (endTime - startTime), // Süreyi milisaniye cinsinden gönderiyoruz
       });

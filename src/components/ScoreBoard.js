@@ -9,7 +9,7 @@ function ScoreBoard() {
   useEffect(() => {
     const fetchScores = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/scores');
+        const response = await axios.get('https://photo-tagging-backend.onrender.com/api/scores');
         setScores(response.data);
       } catch (error) {
         console.error('Error fetching scores', error);
