@@ -4,21 +4,21 @@ import Home from './components/Home';
 import GamePage from './components/GamePage';
 import Scoreboard from './components/ScoreBoard';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer'; // Footer bileşenini import ettik
+import Footer from './components/Footer';
 
 function App() {
   return (
     <Router>
-      <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+      <div className="flex flex-col min-h-screen font-robotoMono"> {/* Apply font-robotoMono class here */}
         <Navbar />
-        <main style={{ flex: 1 }}>
+        <main className="flex-grow overflow-auto">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/game" element={<GamePage />} />
             <Route path="/scoreboard" element={<Scoreboard />} />
           </Routes>
         </main>
-        <Footer /> {/* Footer bileşenini burada ekliyoruz */}
+        <Footer />
       </div>
     </Router>
   );
